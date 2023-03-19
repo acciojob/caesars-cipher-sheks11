@@ -17,7 +17,7 @@ function rot13(encodedStr){
 	var decryptedArr=[];
 	for(let i=0;i<decodedArr.length;i++){
 		var word=decodedArr[i];	
-		decryptedWord="";
+		var decryptedWord="";
 		for(let j=0;j<word.length;j++){		
 			decryptedWord+=lookup[word.charAt(j)];
 		}
